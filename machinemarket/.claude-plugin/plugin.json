@@ -7,7 +7,7 @@
     "email": "hello@machinemarket.ai"
   },
   "homepage": "https://machinemarket.ai",
-  "repository": "https://github.com/stein-hashx0/machinemarket-plugin",
+  "repository": "https://github.com/machinemarket/plugin",
   "license": "MIT",
   "keywords": ["cloud", "vps", "server", "usdc", "base", "crypto", "agents", "infrastructure"]
 }
