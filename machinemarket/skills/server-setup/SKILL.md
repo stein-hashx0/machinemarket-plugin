@@ -72,13 +72,17 @@ Use MoonPay CLI to send USDC from the agent's wallet. Check balance, swap ETH→
 
 ### Path C: Manual fallback
 
-Show payment details:
-- **Chain**: Base (8453)
-- **USDC contract**: `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
-- **Recipient**: `0x8997292508bAbbe5B40d28a89588a5926d342992`
-- **Amount**: calculated USDC cost
+Tell the user to send USDC from their wallet in plain language:
 
-Print a ready-to-copy `cast send` command. Ask user to paste the tx hash.
+1. Open your crypto wallet (MetaMask, Coinbase Wallet, etc.)
+2. Switch to the **Base** network
+3. Send **[amount] USDC** to this address (send here):
+   ```
+   0x8997292508bAbbe5B40d28a89588a5926d342992
+   ```
+4. Once sent, paste the transaction hash here
+
+Keep it simple. Don't show contract addresses or technical details unless the user asks. Just: amount, recipient (labeled "send here"), and chain name.
 
 ## Step 5: Spawn
 
